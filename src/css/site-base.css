@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     padding: 0px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .pos-relative {
@@ -15,29 +17,105 @@ body {
     background-repeat: no-repeat;
 }
 
-#logo-home{
+#logo-home {
     position: absolute;
     top: 5%;
-    left: 5%; 
+    left: 5%;
     z-index: 1;
 }
-#logo-home img{
- width: 20vw;
+
+#logo-home img {
+    width: 20vw;
 }
 
-#txt-home{
+#txt-home {
     position: absolute;
     top: 0px;
     left: 0px;
-    width:  100vw;
-    height: 100vh; 
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;   
-    color: rgb(255, 255, 255); 
+    text-align: center;
+    color: rgb(255, 255, 255);
+
 }
-#txt-home div{
-     font-size: 4vw;
+
+#txt-home div {
+    font-size: 4vw;
 }
- 
+
+.left {
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+}
+
+.rigth {
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    top: 0px;
+    right: 0px;
+    overflow-x: hidden;
+}
+
+#img-sobre-001 {
+    background-image: url('../img/foto-002.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-rigth {
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+    height: 8vh;
+    width: 8vw;
+    z-index: 1; 
+    background-image: url('../img/logo-2.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-left {
+    position: absolute;
+    top: 3vh;
+    left: 5vw;
+    height: 8vh;
+    width: 8vw;
+    z-index: 1; 
+    background-image: url('../img/logo-2.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.txt-rigth {
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.txt-left {
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
